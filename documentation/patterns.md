@@ -2,7 +2,7 @@
 
 ## Nomeação de Branches
 
-Formato: `{tipo}/{descricao-resumida}-{código da tarefa no Jira}`
+Formato: `{tipo}/{código da tarefa no Jira}-{descricao-resumida}`
 
 Tipos permitidos:
 
@@ -11,7 +11,7 @@ Tipos permitidos:
 - `hotfix/` - Para correções URGENTES em produção.
 - `improvement/` - Para melhoria de uma feature já existente, seja de performance, escrita, layout, etc.
 
-Exemplo: `feature/implementacao-login-TRK-001`
+Exemplo: `feature/PROJ-001-implementacao-login`
 
 ![](https://github.com/user-attachments/assets/ce5856ba-1732-4072-8ca4-9fc76b0f63ff)
 
