@@ -32,7 +32,7 @@
 <span id="context">
 
 ## ◻️ Context
-> ...
+The project aims to develop a performance management and project tracking platform, focused on providing visibility and insights into metrics and indicators in a dynamic and intuitive way. The platform will be used by different user profiles, each with specific needs, but with the common goal of improving efficiency and data-driven decision-making.
 
 <div align="left"><hr width=70%></div>
 
@@ -40,7 +40,65 @@
 
 ## ◻️ Product Backlog
 
-> In progress...
+<table>
+    <tr>
+        <th>Rank</th>
+        <th>Priority</th>
+        <th>User Stories</th>
+        <th>Sprint</th>
+        <th>Status</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>As an administrator, I want to view all projects and their respective indicators and metrics, to monitor the performance of each one.</td>
+        <td>1</td>
+        <td>In progress...</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>2</td>
+        <td>As a user, I want to view dashboards with card metrics (by label, collaborator, and status), to track results in a dynamic and intuitive way.</td>
+        <td>1</td>
+        <td>In progress...</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>4</td>
+        <td>As an administrator, I want to log in securely with my credentials to access all team and project indicators.</td>
+        <td>2</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>2</td>
+        <td>As an operator, I want to log in securely with my credentials to access only my own performance indicators.</td>
+        <td>2</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>3</td>
+        <td>As a manager, I want to log in securely with my credentials to access only my performance indicators and those of my team.</td>
+        <td>2</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>1</td>
+        <td>As a user, I want to view dashboards with metrics about cards created over a period (last 7 days), cards completed over a period (last 7 days), as well as the average card execution time and rework, to track process efficiency through dashboards.</td>
+        <td>2</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>2</td>
+        <td>As a user, I want to filter metrics and indicators on dashboards to obtain only the information relevant to my analysis.</td>
+        <td>3</td>
+        <td>-</td>
+    </tr>
+
+</table>
 
 <div align="left"><hr width=70%></div>
 
