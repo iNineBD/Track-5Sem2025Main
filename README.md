@@ -92,7 +92,7 @@ The project aims to develop a performance management and project tracking platfo
     </tr>
     <tr>
         <td>7</td>
-        <td>2</td>
+        <td>1</td>
         <td>As a user, I want to filter metrics and indicators on dashboards to obtain only the information relevant to my analysis.</td>
         <td>3</td>
         <td>-</td>
@@ -108,9 +108,9 @@ The project aims to develop a performance management and project tracking platfo
 
 | SPRINTS | PERIODS | KEYWORD | DESCRIPTION |
 |:-------:|:-----:|:---------:|:---------:|
-| [Sprint 1](https://github.com/iNineBD/Track-5Sem2025Main/wiki/Sprint-1) | 10/03/2025 to 30/03/2025 | ... | ... |
-| [Sprint 2](https://github.com/iNineBD/Track-5Sem2025Main/wiki/Sprint-2) | 07/04/2025 to 27/04/2025 | ... | ... |
-| [Sprint 3](https://github.com/iNineBD/Track-5Sem2025Main/wiki/Sprint-3) | 05/05/2025 to 25/05/2025 | ... | ... |
+| [Sprint 1](https://github.com/iNineBD/Track-5Sem2025Main/wiki/Sprint-1) | 10/03/2025 to 30/03/2025 | initials dashboards and project screen  | Deliver the basic functionalities for project visualization and dashboards, establishing the foundation for the development of more advanced features in the upcoming sprints. |
+| [Sprint 2](https://github.com/iNineBD/Track-5Sem2025Main/wiki/Sprint-2) | 07/04/2025 to 27/04/2025 | access management and dashboards | Deliver a secure authentication system and expand the functionalities of the dashboards. |
+| [Sprint 3](https://github.com/iNineBD/Track-5Sem2025Main/wiki/Sprint-3) | 05/05/2025 to 25/05/2025 | advanced filters  | Deliver filtering functionalities that allow users to customize the visualization of metrics and indicators on the dashboards. |
 
 <div align="left"><hr width=70%></div>
 
