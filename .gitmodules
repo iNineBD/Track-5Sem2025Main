@@ -5,5 +5,5 @@
 	path = Track-5Sem2025Server
 	url = https://github.com/iNineBD/Track-5Sem2025Server.git
 [submodule "ETL"]
-	path = ETL
+	path = Track-5Sem2025ETL
 	url = https://github.com/iNineBD/Track-5Sem2025ETL
