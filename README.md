@@ -118,6 +118,20 @@ The project aims to develop a performance management and project tracking platfo
 
 ## ◻️ Technologies
 
-...
+
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=FFFFFF)
+![GO](https://img.shields.io/badge/GO-FFFFF?style=for-the-badge&logo=go&logoColor=FFFFFF&color=00BFFF)
+![Nuxt](https://img.shields.io/badge/Nuxt-FFFFF?style=for-the-badge&logo=nuxt&logoColor=FFFFFF&color=4682B4)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=FFFFFF)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=white&color=green)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![DigitalOcean](https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white)
+![Static Badge](https://img.shields.io/badge/VIRTUAL%20BOX-FFFFFF?style=for-the-badge&logo=virtualbox&logoColor=%23FFFFFF&labelColor=FF8C00&color=FF8C00)
+![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
+
 
 <div align="left"><hr width=70%></div>
