@@ -9,7 +9,7 @@
     <a href="#requirements" >Requirements</a> |
     <a href="#backlog">Product Backlog</a> |
     <a href="#sprints">Sprints</a> |
-    <a href="other-docs">Other Documentation</a> |
+    <a href="#other-docs">Other Documentation</a> |
     <a href="#technologies">Technologies</a>
 </p>
 
@@ -32,7 +32,7 @@ The project aims to develop a performance management and project tracking platfo
   | Developer | Alita Amancio | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/alitaamancio/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/AlitaAmancio) |
   | Developer | André Bernardes | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/andre-oliveira2004) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Andre-Bernardes200) |
   | Developer | Eduardo Farias | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/eduardofariasp/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/eduardofpaula) |
-  | Developer | Willian Antoniazzi | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/williamantoniazzi/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](williamantoniazzi) |
+  | Developer | Willian Antoniazzi | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/williamantoniazzi/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/williamantoniazzi) |
 
 </div>
 
@@ -135,7 +135,7 @@ The project aims to develop a performance management and project tracking platfo
         <td>As an administrator, I want to view all projects on the Taiga management platform and their relevant indicators and measurements, to monitor the performance of each one.</td>
         <td>1</td>
         <td>1</td>
-        <td>Done</td>
+        <td>✅ Done</td>
     </tr>
     <tr>
         <td>2</td>
@@ -143,7 +143,7 @@ The project aims to develop a performance management and project tracking platfo
         <td>As a user, I want to view dashboards with card metrics (by tag, collaborator and status) to monitor results in a dynamic and intuitive way.</td>
         <td>2</td>
         <td>1</td>
-        <td>Done</td>
+        <td>✅ Done</td>
     </tr>
     <tr>
         <td>3</td>
@@ -151,7 +151,7 @@ The project aims to develop a performance management and project tracking platfo
         <td>As an administrator, I want to log in securely with my credentials to access all team and project indicators.</td>
         <td>4</td>
         <td>2</td>
-        <td>In progress</td>
+        <td>🚧 In Progress</td>
     </tr>
     <tr>
         <td>4</td>
@@ -159,7 +159,7 @@ The project aims to develop a performance management and project tracking platfo
         <td>As an operator, I want to log in securely with my credentials to access only my own performance indicators.</td>
         <td>2</td>
         <td>2</td>
-        <td>In progress</td>
+        <td>🚧 In Progress</td>
     </tr>
     <tr>
         <td>5</td>
@@ -167,7 +167,7 @@ The project aims to develop a performance management and project tracking platfo
         <td>As a manager, I want to log in securely with my credentials to access only my and my team's performance indicators.</td>
         <td>3</td>
         <td>2</td>
-        <td>In progress</td>
+        <td>🚧 In Progress</td>
     </tr>
     <tr>
         <td>6</td>
@@ -175,7 +175,7 @@ The project aims to develop a performance management and project tracking platfo
         <td>As a user, I want to view dashboards with metrics on cards created by period (last 7 days), cards completed by period (last 7 days), as well as the average card execution time and rework, to monitor the efficiency of processes through dashboards.</td>
         <td>1</td>
         <td>2</td>
-        <td>In progress</td>
+        <td>🚧 In Progress</td>
     </tr>
     <tr>
         <td>7</td>
