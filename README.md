@@ -86,6 +86,11 @@ The project aims to develop a performance management and project tracking platfo
         <td>Access control by levels</td>
         <td>Managing the display of indicators from different access levels (admin, manager and operator)</td>
     </tr>
+    <tr>
+        <td>RF09</td>
+        <td>Integration with other systems</td>
+        <td>Create an API for integration with other systems such as Trello and Jira</td>
+    </tr>
 </table>
 
 <table>
@@ -187,7 +192,7 @@ The project aims to develop a performance management and project tracking platfo
     </tr>
     <tr>
         <td>8</td>
-        <td>RNF01, RNF04</td>
+        <td>RF09, RNF01, RNF04</td>
         <td>As a user, I want the system to allow integration with Trello and Jira platforms, so that I can pull project metrics. This will help me consolidate information in one place, making analysis and decision-making easier.</td>
         <td>1</td>
         <td>3</td>
@@ -216,6 +221,7 @@ The project aims to develop a performance management and project tracking platfo
 - <a href="https://github.com/iNineBD/Track-5Sem2025Main/blob/main/documentation/patterns.md">Project Patterns</a>
 - <a href="">User Manual</a>
 - <a href="">Database</a>
+- <a href="">Project Documentation</a>
 
 <span id="technologies">
 
