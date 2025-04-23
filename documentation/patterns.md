@@ -1,91 +1,135 @@
-# Padronização de Projetos
+<h1 align="center">Project Standardization</h1>
 
-## Nomeação de Branches
+<p align="center">
+    <a href="#context">Context</a> |
+    <a href="#branch-naming">Branch Naming</a> |
+    <a href="#commit-messages">Commit Messages</a> |
+    <a href="#pull-request">Pull Request</a> |
+    <a href="#naming-database">Naming Database</a> |
+    <a href="#tags">Tags</a> |
+    <a href="#variable-naming">Variable Naming</a> |
+    <a href="#comments">Comments</a> |
+    <a href="#environment-variables">Environment Variables</a>
+</p>
 
-Formato: `{tipo}/{código da tarefa no Jira}-{descricao-resumida}`
+<span id="context">
 
-Tipos permitidos:
+## Context
+This document aims to standardize development practices across all project repositories, promoting consistency, readability, and efficient collaboration among team members. The guidelines described here apply to all development stakeholders, including frontend, backend, and data.
 
-- `feature/` - Para novas funcionalidades ao projetos, componentes e afins.
-- `bugfix/` - Para correções de bugs.
-- `hotfix/` - Para correções URGENTES em produção.
-- `improvement/` - Para melhoria de uma feature já existente, seja de performance, escrita, layout, etc.
+<span id="branch-naming">
 
-Exemplo: `feature/PROJ-001-implementacao-login`
+## Branch Naming
+### Format:
+- `{type}/{Jira issue code}-{brief-description}`
+
+### llowed types:
+- `feature/` - For new features to projects, components, etc.
+- `fix/` - For feature fixes.
+- `bugfix/` - For bug fixes.
+- `hotfix/` - For URGENT fixes in production.
+- `improvement/` - For improvements to an existing feature, whether it be performance, writing, layout, etc.
+
+### Example:
+- `feature/TRK-16-standards-documentation-and-main-repository`
 
 ![](https://github.com/user-attachments/assets/ce5856ba-1732-4072-8ca4-9fc76b0f63ff)
 
-## Mensagens de Commits
+<span id="commit-messages">
 
-Formato: `{tipo}: {descrição curta}`
+## Commit Messages
+### Format:
+- `{type}: {short description}`
 
-Tipos permitidos:
+### Allowed types:
+- `feat:` - Implementation of new functionality.
+- `fix:` - Bug fix or code issues.
+- `doc:` - Documentation changes.
+- `style:` - Formatting adjustment (no functional impact).
+- `refactor:` - Code refactoring.
+- `test:` - Addition/update of tests.
+- `chore:` - Task with no direct impact on source code, tools, configurations or libraries.
 
-- `feat:` - Implementação de nova funcionalidade.
-- `fix:` - Correção de bug ou problemas no código.
-- `doc:` - Alterações na documentação.
-- `style:` - Ajuste de formatação (sem impacto funcional).
-- `refactor:` - Refatoramento de código.
-- `test:` - Adição/atualização de testes.
-- `chore:` - Tarefa sem impacto direto no código fonte, ferramentas, configurações ou bibliotecas.
+### Example:
+- `feat: Implementation of OAuth login`
 
-Exemplo: `feat: Implementação do login com OAuth`
+<span id="pull-request">
 
-## Nomeação de Tabelas no Banco de Dados
+## Pull Request Titles
+### Format:
+- `[Type] Short description of the change`
 
-- Utilizar o padrão `snake_case`, no singular.
-- Evitar abreviações.
+### Allowed types:
+- `[Feature]` - New functionality.
+- `[Fix]` - Bug fix.
+- `[Docs]` - Documentation.
+- `[Refactor]` - Code refactoring.
+- `[Chore]` - Internal maintenance.
 
-Exemplo: `usuarios`, `pedidos`, `produtos`
+### Example:
+- `[Feature] Implementation of OAuth login`
 
-## Nomeação de Colunas no Banco de Dados
+## Reviews and Pull Requests
+- All new features must be submitted via Pull Request (PR).
+- The PR must be reviewed by at least one team member before merging.
+- Add the Jira task link in the PR description.
+- Mark the responsible team as reviewer.
 
-- Utilizar `snake_case`, no singular.
-- Utilizar prefixos padronizados para chaves estrangeiras (`id_` seguido do nome da tabela referenciada).
+<span id="naming-database">
 
-Exemplo: `id_usuario`, `nome_completo`, `data_criacao`
+## Naming Database Tables
+- Use the `snake_case` pattern, in the singular.
+- Avoid abbreviations.
 
-## Títulos de Pull Requests
+### Example:
+- `users`, `orders`, `products`
 
-Formato: `[Tipo] Descrição curta da alteração`
+## Naming Database Columns
+- Use `snake_case`, in the singular.
+- Use standardized prefixes for foreign keys (`id_` followed by the name of the referenced table).
 
-Tipos permitidos:
+### Example:
+- `user_id`, `full_name`, `creation_date`
 
-- `[Feature]` - Nova funcionalidade.
-- `[Fix]` - Correção de bug.
-- `[Docs]` - Documentação.
-- `[Refactor]` - Refatoramento de código.
-- `[Chore]` - Manutenção interna.
+<span id="tags">
 
-Exemplo: `[Feature] Implementação do login com OAuth`
+## Titles for Release Tags
+### Format:
+- `sprint - {release}`
 
-## Títulos para Tags de Versão
+### Example:
+- `sprint - 1`
 
-Formato: `sprint - {versão}`
+<span id="variable-naming">
 
-Exemplo: `sprint - 1`
+## Variable Naming
+- Use `camelCase` for variable names.
+- Avoid abbreviations.
+- Use descriptive names.
+- Use names in English.
+- Use names that represent the variable content.
 
-## Nomeação de Variáveis
+### Example:
+- `nomeCompleto`, `dataCriacao`, `usuarioLogado`
 
-- Utilizar `camelCase` para nomes de variáveis.
-- Evitar abreviações.
-- Utilizar nomes descritivos.
-- Utilizar nomes em inglês.
-- Utilizar nomes que representem o conteúdo da variável.
+<span id="comments">
 
-Exemplo: `nomeCompleto`, `dataCriacao`, `usuarioLogado`
+## Comments in the Code
+- At least one comment per function.
+- They must be objective and explanatory.
+- They must be written in English.
 
-## Comentários no Código
-
-- Pelos menos um comentário por função.
-- Devem ser objetivos e explicativos.
-- Devem ser escritos em inglês.
-
-Exemplo:
-
+### Example:
 ```golang
-// getUserByID busca um usuário no banco de dados pelo ID.
+// getUserByID searches for a user in the database by ID.
 func getUserByID(id int) (*User, error) {
-    // ...
+// ...
 }
 ```
+
+<span id="environment-variables">
+
+## Default for Environment Variables
+- Use `UPPER_SNAKE_CASE`
+- Prefix with project name if necessary
+- Never version real `.env` files, only a `.env.example`
