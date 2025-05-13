@@ -46,7 +46,7 @@
 🧪 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/Unit-Testing-and-Integration">Unit Testing and Integration</a> — Describes the tests, tools used (e.g. Go Test, PyTest), test coverage, and CI integration.<br>
 🧩 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/Design-Patterns">Design Patterns</a> — Explains the project's design patterns and development best practices.<br>
 📖 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/User-Manual">User Manual</a> — Step-by-step guide on how the user accesses and uses the system.<br>
-🎨 <a href="https://www.figma.com/design/Cwg09HW9o8iOQ8hKjYlLXK/Untitled?node-id=0-1&p=f&t=fwIKVwqYRZ1fFAUT-0">Wireframes</a> — UI/UX prototypes designed in Figma.
+🎨 <a href="https://www.figma.com/design/jQVLcLjf4Z6DiqKz4n5B7v/API-5%C2%B0-SEM?node-id=103-81&t=kp9TFKa4SH81JHnt-4">Wireframes</a> — UI/UX prototypes designed in Figma.
 
 <br>
 
