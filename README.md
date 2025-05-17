@@ -5,23 +5,7 @@
 <span id="project-objective">
 
 ## 🎯 Objective
-> The project aims to develop a performance management and project monitoring platform focused on providing visibility and dynamic insights into metrics and indicators. The platform will be integrated with Taiga and will allow viewing of data such as the number of cards created and completed, average execution time, distribution by employee, among other relevant indicators. With different access levels (Operator, Manager and Administrator), the system will ensure that each profile only views information relevant to their role. The solution aims to improve efficiency, transparency and data-driven decision-making in project management.
-
-<br>
-
-## 📌 Solution
-> To meet the challenges of performance management and project monitoring, a platform integrated with Taiga will be developed, which will consolidate and present strategic indicators through dynamic and accessible dashboards.
-
-The solution will have the following main features:
-  - **Integration with Taiga:** automatic extraction of data related to projects, such as tasks, status, execution time and those responsible.
-  - **Interactive dashboards:** views of statistics such as the number of cards created and completed, average execution time, distribution of tasks by member, among other relevant indicators.
-  - **Access control by profile:**
-    - **Operator:** access only to data for tasks under their responsibility.
-    - **Manager:** expanded view of time performance under their leadership.
-    - **Administrator:** global access to all indicators for all projects.
-  - **Basis for strategic decisions:** visualizations facilitate continuous monitoring of project progress and decision-making based on real data.
-
-> The platform will promote greater efficiency, transparency and agility in project management, optimizing the monitoring of deliveries and team performance.
+> The project aims to develop a project performance management and monitoring platform focused on providing visibility and dynamic insights into metrics and indicators. The platform will be integrated with Taiga and will allow the visualization of data such as the number of cards created and completed, average execution time, distribution by employee, among other relevant indicators. With different access levels (Operator, Manager and Administrator), the system will ensure that each profile only views information relevant to their role. The solution aims to improve efficiency, transparency and data-driven decision-making in project management.
 
 <br>
 
@@ -42,26 +26,26 @@ The solution will have the following main features:
 <span id="project-repositories">
 
 ## 🗂️ Project Repositories
-🚀 <a href="https://github.com/iNineBD/Track-5Sem2025Front">Frontend</a><br>
-🧠 <a href="https://github.com/iNineBD/Track-5Sem2025Server">Backend</a><br>
-📊 <a href="https://github.com/iNineBD/Track-5Sem2025ETL">ETL</a>
+- 🚀 <a href="https://github.com/iNineBD/Track-5Sem2025Front">Frontend</a><br>
+- 🧠 <a href="https://github.com/iNineBD/Track-5Sem2025Server">Backend</a><br>
+- 📊 <a href="https://github.com/iNineBD/Track-5Sem2025ETL">ETL</a>
 
 <br>
 
 <span id="documentation">
 
 ## 📑 Documentation
-📝 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/Product-Documentation">Product Documentation</a><br>
-📖 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/User-Manual">User Manual</a><br>
-🧩 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/Design-Patterns">Design Patterns</a><br>
-📚 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/Documentation-Pattern">DevOps - Documentation Pattern</a><br>
-📌 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/Requirements-Tracking">DevOps - Requirements Tracking</a><br>
-🔁 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/Continuous-Integration-(CI)">DevOps - Continuous Integration (CI)</a><br>
-🚢 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/Deploy">DevOps - Deploy</a><br>
-🗄️ <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/Database">DevOps - Database</a><br>
-🧪 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/DevOps-%E2%80%90-Unit-Test">DevOps - Unit Test</a><br>
-🧪 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/DevOps-%E2%80%90-Integration-Testing">DevOps - Integration Testing</a><br>
-🎨 <a href="https://www.figma.com/design/jQVLcLjf4Z6DiqKz4n5B7v/API-5%C2%B0-SEM?node-id=103-81&t=kp9TFKa4SH81JHnt-4">Wireframes</a>
+- 📝 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/Product-Documentation">Product Documentation</a><br>
+- 📖 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/User-Manual">User Manual</a><br>
+- 🧩 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/Design-Patterns">Design Patterns</a><br>
+- 📚 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/Documentation-Pattern">DevOps - Documentation Pattern</a><br>
+- 📌 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/Requirements-Tracking">DevOps - Requirements Tracking</a><br>
+- 🔁 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/Continuous-Integration-(CI)">DevOps - Continuous Integration (CI)</a><br>
+- 🚢 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/Deploy">DevOps - Deploy</a><br>
+- 🗄️ <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/Database">DevOps - Database</a><br>
+- 🧪 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/DevOps-%E2%80%90-Unit-Test">DevOps - Unit Test</a><br>
+- 🧪 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/DevOps-%E2%80%90-Integration-Testing">DevOps - Integration Testing</a><br>
+- 🎨 <a href="https://www.figma.com/design/jQVLcLjf4Z6DiqKz4n5B7v/API-5%C2%B0-SEM?node-id=103-81&t=kp9TFKa4SH81JHnt-4">Wireframes</a>
 
 <br>
 
@@ -268,7 +252,7 @@ The solution will have the following main features:
 | Kick-off | 27/02/2025 | - | Initial alignment of the team, presentation of the project theme (*Track*), and definition of roles and responsibilities. |
 | [Sprint 1](https://github.com/iNineBD/Track-5Sem2025Main/wiki/Sprint-1) | 10/03/2025 to 30/03/2025 | initials dashboards and project screen  | Deliver the first version of the project screen and initial dashboards with card metrics by tag, collaborator and status, enabling an overall view of projects and performance. |
 | [Sprint 2](https://github.com/iNineBD/Track-5Sem2025Main/wiki/Sprint-2) | 07/04/2025 to 27/04/2025 | access management and dashboards | Implement a secure login for all roles (administrator, manager and operator), expand the panels with new indicators (cards created and completed by period, average time and rework) and ensure adequate access control to the views. |
-| [Sprint 3](https://github.com/iNineBD/Track-5Sem2025Main/wiki/Sprint-3) | 05/05/2025 to 25/05/2025 | advanced filters  | Advanced filtering integration for dashboards, external platform integration (e.g. Jira), and export of filtered metrics in CSV format to support decision making. |
+| [Sprint 3](https://github.com/iNineBD/Track-5Sem2025Main/wiki/Sprint-3) | 05/05/2025 to 25/05/2025 | advanced filters and export CSV | Advanced filtering integration for dashboards, external platform integration (e.g. Jira), and export of filtered metrics in CSV format to support decision making. |
 | Feira de Soluções | 29/05/2025 | final presentation | Presentation of the final version of the Track platform, highlighting main features such as dashboards, filters, access control, data export and integrations, aligned with users' needs. |
 
 <br>
