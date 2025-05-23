@@ -222,7 +222,7 @@
         <td>As a user, I want to filter the metrics and indicators in the dashboards to get only relevant information for my analysis.</td>
         <td>3</td>
         <td>3</td>
-        <td>🚧 In Progress</td>
+        <td>✅ Done</td>
     </tr>
     <tr>
         <td>8</td>
@@ -230,15 +230,7 @@
         <td>As a user, I want the system to integrate with other platforms (like Trello and Jira) so that I can pull metrics from projects. This will help consolidate information in one place, making it easier to analyze and make decisions.</td>
         <td>1</td>
         <td>3</td>
-        <td>🚧 In Progress</td>
-    </tr>
-    <tr>
-        <td>9</td>
-        <td>RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RNF01, RNF02 e RNF03</td>
-        <td>As a user, I want the system to allow me to export data in CSV format, to generate reports and facilitate the sharing of information about the filtered metrics and indicators.</td>
-        <td>2</td>
-        <td>3</td>
-        <td>🚧 In Progress</td>
+        <td>✅ Done</td>
     </tr>
 </table>
 
