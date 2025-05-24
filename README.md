@@ -2,14 +2,10 @@
 
 <br>
 
-<span id="project-objective">
-
 ## 🎯 Objective
 > The project aims to develop a project performance management and monitoring platform focused on providing visibility and dynamic insights into metrics and indicators. The platform will be integrated with Taiga and will allow the visualization of data such as the number of cards created and completed, average execution time, distribution by employee, among other relevant indicators. With different access levels (Operator, Manager and Administrator), the system will ensure that each profile only views information relevant to their role. The solution aims to improve efficiency, transparency and data-driven decision-making in project management.
 
 <br>
-
-<span id="summary">
 
 ## 🧩 Summary
 > This document presents the main components and organization of the Track project repository:
@@ -38,11 +34,11 @@
 - 📝 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/Product-Documentation">Product Documentation</a><br>
 - 📖 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/User-Manual">User Manual</a><br>
 - 🧩 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/Design-Patterns">Design Patterns</a><br>
-- 📚 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/Documentation-Pattern">DevOps - Documentation Pattern</a><br>
-- 📌 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/Requirements-Tracking">DevOps - Requirements Tracking</a><br>
-- 🔁 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/Continuous-Integration-(CI)">DevOps - Continuous Integration (CI)</a><br>
-- 🚢 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/Deploy">DevOps - Deploy</a><br>
-- 🗄️ <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/Database">DevOps - Database</a><br>
+- 📚 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/DevOps-%E2%80%90-Documentation-Pattern">DevOps - Documentation Pattern</a><br>
+- 📌 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/DevOps-%E2%80%90-Requirements-Tracking">DevOps - Requirements Tracking</a><br>
+- 🔁 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/DevOps-%E2%80%90-Continuous-Integration-(CI)">DevOps - Continuous Integration (CI)</a><br>
+- 🚢 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/DevOps-%E2%80%90-Deploy">DevOps - Deploy</a><br>
+- 🗄️ <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/DevOps-%E2%80%90-Database">DevOps - Database</a><br>
 - 🧪 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/DevOps-%E2%80%90-Unit-Test">DevOps - Unit Test</a><br>
 - 🧪 <a href="https://github.com/iNineBD/Track-5Sem2025Main/wiki/DevOps-%E2%80%90-Integration-Testing">DevOps - Integration Testing</a><br>
 - 🎨 <a href="https://www.figma.com/design/jQVLcLjf4Z6DiqKz4n5B7v/API-5%C2%B0-SEM?node-id=103-81&t=kp9TFKa4SH81JHnt-4">Wireframes</a>
@@ -245,7 +241,7 @@
 | [Sprint 1](https://github.com/iNineBD/Track-5Sem2025Main/wiki/Sprint-1) | 10/03/2025 to 30/03/2025 | initials dashboards and project screen  | Deliver the first version of the project screen and initial dashboards with card metrics by tag, collaborator and status, enabling an overall view of projects and performance. |
 | [Sprint 2](https://github.com/iNineBD/Track-5Sem2025Main/wiki/Sprint-2) | 07/04/2025 to 27/04/2025 | access management and dashboards | Implement a secure login for all roles (administrator, manager and operator), expand the panels with new indicators (cards created and completed by period, average time and rework) and ensure adequate access control to the views. |
 | [Sprint 3](https://github.com/iNineBD/Track-5Sem2025Main/wiki/Sprint-3) | 05/05/2025 to 25/05/2025 | advanced filters and export CSV | Advanced filtering integration for dashboards, external platform integration (e.g. Jira), and export of filtered metrics in CSV format to support decision making. |
-| Feira de Soluções | 29/05/2025 | final presentation | Presentation of the final version of the Track platform, highlighting main features such as dashboards, filters, access control, data export and integrations, aligned with users' needs. |
+| Feira de Soluções | 17/06/2025 | final presentation | Presentation of the final version of the Track platform, highlighting main features such as dashboards, filters, access control, data export and integrations, aligned with users' needs. |
 
 <br>
 
