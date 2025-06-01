@@ -3,7 +3,7 @@
 <br>
 
 ## 🎯 Objective
-> The project aims to develop a project performance management and monitoring platform focused on providing visibility and dynamic insights into metrics and indicators. The platform will be integrated with Taiga and will allow the visualization of data such as the number of cards created and completed, average execution time, distribution by employee, among other relevant indicators. With different access levels (Operator, Manager and Administrator), the system will ensure that each profile only views information relevant to their role. The solution aims to improve efficiency, transparency and data-driven decision-making in project management.
+> The project aims to develop a project performance management and monitoring platform focused on providing visibility and dynamic insights into metrics and indicators. The platform will be integrated with Taiga and JIra, and will allow the visualization of data such as the number of cards created and completed, average execution time, distribution by employee, among other relevant indicators. With different access levels (Operator, Manager and Administrator), the system will ensure that each profile only views information relevant to their role. The solution aims to improve efficiency, transparency and data-driven decision-making in project management.
 
 <br>
 
@@ -12,6 +12,7 @@
 - 🗂️ <a href="#project-repositories">Project Repositories</a>
 - 📑 <a href="#documentation">Documentation</a>
 - 👥 <a href="#contributors">Contributors</a>
+- 💡 <a href="#solution">Solution</a>
 - 📋 <a href="#requirements">Requirements</a>
 - 🧵 <a href="#product-backlog">Product Backlog</a>
 - 🏃 <a href="#sprints">Sprints</a>
@@ -61,6 +62,22 @@
   | Developer | Willian Antoniazzi | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/williamantoniazzi/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/williamantoniazzi) | <img src="https://avatars.githubusercontent.com/u/62269345?v=4" width="60"> |
 
 </div>
+
+<br>
+
+<span id="solution">
+
+## 💡 Solution
+>The solution was tailor-made for [Youtan](https://youtan.com.br/), a company specialized in the development of custom software and applications. Youtan employs agile methodologies and modern technologies to deliver digital solutions for Web, Desktop, and Mobile platforms.
+>Currently, Youtan aims to enhance its project management using various tools. However, it faces challenges in visualizing key workflow indicators, which makes it difficult to monitor progress and make strategic decisions. The lack of a centralized dashboard displaying metrics such as average completion time, task volume over specific periods, and task distribution among team members reduces efficiency and transparency in project management.
+>Another critical issue is the limitation of Taiga in offering differentiated access levels, which hinders the ability to present personalized information to operators, managers, and administrators.
+
+TRACK is designed as a platform integrated with the databases of both Taiga and Jira, developed to consolidate and present key indicators in a clear and accessible way, tailored to different user profiles:
+- Operator: can view metrics related to tasks under their responsibility.
+- Manager: has access to team metrics, including tasks assigned to their team members.
+- Administrator: can access all organizational indicators.
+
+With interactive and visually intuitive dashboards, TRACK aims to streamline project monitoring, enabling data-driven management that is more efficient and transparent across all organizational levels.
 
 <br>
 
