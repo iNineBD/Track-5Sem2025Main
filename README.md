@@ -172,80 +172,31 @@ With interactive and visually intuitive dashboards, TRACK aims to streamline pro
 <span id="product-backlog">
 
 ## 🧵 Product Backlog
-<table>
-    <tr>
-        <th>Rank</th>
-        <th>ID Requirement</th>
-        <th>User Stories</th>
-        <th>Priority</th>
-        <th>Sprint</th>
-        <th>Status</th>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RNF01, RNF02 e RNF03</td>
-        <td>As an administrator, I want to view all projects and their detailed indicators and analyses, to monitor the performance of each one.</td>
-        <td>1</td>
-        <td>1</td>
-        <td>✅ Done</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>RF01, RF02, RF03, RNF01, RNF02, RNF03 e RNF04</td>
-        <td>As a user, I want to view dashboards with card metrics (by label, collaborator and status), to monitor results in a dynamic and intuitive way.</td>
-        <td>2</td>
-        <td>1</td>
-        <td>✅ Done</td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RNF01, RNF02 e RNF03</td>
-        <td>As an administrator, I want to log in securely with my credentials to access all team and project indicators.</td>
-        <td>4</td>
-        <td>2</td>
-        <td>✅ Done</td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RNF01, RNF02 e RNF03</td>
-        <td>As an operator, I want to log in securely with my credentials to access only my own performance indicators.</td>
-        <td>2</td>
-        <td>2</td>
-        <td>✅ Done</td>
-    </tr>
-    <tr>
-        <td>5</td>
-        <td>RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RNF01, RNF02 e RNF03</td>
-        <td>As a manager, I want to log in securely with my credentials, to access only indicators of my performance and that of my team.</td>
-        <td>3</td>
-        <td>2</td>
-        <td>✅ Done</td>
-    </tr>
-    <tr>
-        <td>6</td>
-        <td>RF04, RF05, RF06, RF07, RNF01, RNF02, RNF03 e RNF04</td>
-        <td>As a user, I want to view dashboards with card metrics (created by period, completed by period, average card execution time and rework), to monitor results in a dynamic and intuitive way.</td>
-        <td>1</td>
-        <td>2</td>
-        <td>✅ Done</td>
-    </tr>
-    <tr>
-        <td>7</td>
-        <td>RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RNF01, RNF02, RNF03 e RNF04</td>
-        <td>As a user, I want to filter the metrics and indicators in the dashboards to get only relevant information for my analysis.</td>
-        <td>3</td>
-        <td>3</td>
-        <td>✅ Done</td>
-    </tr>
-    <tr>
-        <td>8</td>
-        <td>RF09, RNF01, RNF02, RNF03 e RNF04</td>
-        <td>As a user, I want the system to integrate with other platforms (like Trello and Jira) so that I can pull metrics from projects. This will help consolidate information in one place, making it easier to analyze and make decisions.</td>
-        <td>1</td>
-        <td>3</td>
-        <td>✅ Done</td>
-    </tr>
-</table>
+
+### 📋 Legenda dos Pacotes de Requisitos
+| Pacote          | Requisitos cobertos    |
+| --------------- | ---------------------- |
+| **Dashboard**   | RF01, RF02, RF03       |
+| **Tempo**       | RF04, RF05, RF06, RF07 |
+| **Perfis**      | RF08                   |
+| **Integrações** | RF09                   |
+| **Docs & UX**   | RNF01, RNF02, RNF03    |
+| **DW**          | RNF04                  |
+
+</br> 
+
+### ✅ Tabela de Itens do Backlog
+| Rank | Pacotes de Requisitos        | User Story                                                                                                                                     | Perfil     | Prioridade | Sprint | Status     |
+|------|------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|------------|------------|--------|------------|
+| 1    | Dashboard, Perfis, Docs & UX | Como administrador, quero visualizar todos os projetos e seus respectivos indicadores e métricas, para acompanhar o desempenho de cada um.     | Admin      | 1          | 1      | ✅ Done     |
+| 2    | Dashboard, Docs & UX, DW     | Como usuário, quero visualizar dashboards com as métricas dos cards (por etiqueta, colaborador e status), para acompanhar os resultados.       | Usuário    | 2          | 1      | ✅ Done     |
+| 3    | Dashboard, Perfis, Docs & UX | Como administrador, quero fazer login com minhas credenciais para acessar todos os indicadores da equipe e dos projetos.                      | Admin      | 4          | 2      | ✅ Done     |
+| 4    | Dashboard, Perfis, Docs & UX | Como operador, quero fazer login com minhas credenciais para acessar apenas meus indicadores de desempenho.                                    | Operador   | 2          | 2      | ✅ Done     |
+| 5    | Dashboard, Perfis, Docs & UX | Como gerente, quero fazer login com minhas credenciais para acessar meus indicadores e os da equipe.                                          | Gerente    | 3          | 2      | ✅ Done     |
+| 6    | Tempo, Docs & UX, DW         | Como usuário, quero visualizar dashboards com as métricas dos cards (criados por período, finalizados por período, tempo médio e retrabalho). | Usuário    | 1          | 2      | ✅ Done     |
+| 7    | Dashboard, Tempo, Perfis, Docs & UX, DW | Como usuário, quero filtrar as métricas e indicadores nos dashboards para obter apenas informações relevantes para minha análise. | Usuário    | 3          | 3      | ✅ Done     |
+| 8    | Integrações, Docs & UX, DW   | Como usuário, quero que o sistema integre com outras plataformas (como Trello e Jira) para puxar métricas dos projetos.                       | Usuário    | 1          | 3      | ✅ Done     |
+
 
 <br>
 
